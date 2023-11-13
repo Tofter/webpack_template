@@ -3,7 +3,7 @@
 	display: block;
 	height: 2em;
 	width: 3.5em;
-	background-color: lightgrey;
+	background-color: #F0F3F4;
 	border-radius: 1em;
     transition: 600ms ease;
     
@@ -26,10 +26,10 @@
 .switch__checkbox:checked + .switch:after {
     transition: 600ms ease;
     left: 1.65em;
-    background-color: rgb(28, 175, 28)
+    background-color: #324755
 }
 
 .switch__checkbox:checked + .switch {
-    background-color: rgb(29, 27, 27);
+    background-color: #C8D1D3;
     transition: 600ms ease;
 }
