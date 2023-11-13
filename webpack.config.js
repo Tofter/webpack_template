@@ -12,6 +12,10 @@ module.exports = {
 	new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, "src", "newsbox.html"),
 		filename: "newsbox.html"
+	}),
+	new HtmlWebpackPlugin({
+		template: path.resolve(__dirname, "src", "setting.html"),
+		filename: "setting.html"
 	})],
 	module: {
 		rules: [
