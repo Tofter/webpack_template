@@ -1,0 +1,13 @@
+.categories{
+margin: 0 auto;
+background-color:#F0F3F4 ;
+border-radius: 5px;
+display: flex;
+padding: 0 2em;
+
+    &__container{
+        margin: 0.1em;
+        justify-content: space-between;
+
+    }
+}
