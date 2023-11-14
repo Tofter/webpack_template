@@ -1,13 +1,16 @@
-.categories{
-margin: 0 auto;
-background-color:#F0F3F4 ;
-border-radius: 5px;
-display: flex;
-padding: 0 2em;
+.categories {
+    margin: 0 auto;
+    background-color: #F0F3F4;
+    border-radius: 5px;
+    display: flex;
+    padding: 4em 2em 0 2em;
 
-    &__container{
+
+    &__container {
         margin: 0.1em;
         justify-content: space-between;
-
+        text-transform: uppercase;
+        padding: 2em;
+        text-align: center;
     }
 }

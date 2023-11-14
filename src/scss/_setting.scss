@@ -1,7 +1,11 @@
-@media (max-width: 500px){
-    body{
+@media (max-width: 500px) {
+    #body {
         width: 100%;
-        background-color:#B9B0A2;
-    }
+        background-color: $secondary-color-sand;
 
+    }
+    .footer{
+        margin: 0 auto;
+        padding: 2em 0;
+    }
 }
