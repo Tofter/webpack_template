@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="./main.css"> -->
+    <title>Setting</title>
+    <script src="https://kit.fontawesome.com/2ade7a8a93.js" crossorigin="anonymous"></script>
 </head>
+
 <body id="body">
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <i class="fa-solid fa-chevron-left navigation__arrow"></i>
-            <li class="navigation__item"><a href="">News settings</a></li>
-        </ul>
-    </nav>
-    <header class="header">
-        <p>Manage</p>
-        <p>Categories</p>
-    </header>
-    <section class="categories">
-        <div class="categories__container">
-            <h1>europa</h1>
-            <input type="checkbox" id="switch" class="switch__checkbox">
-        <label class="switch" for="switch"></label>
+    <div id="siteHeader">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <i class="fa-solid fa-chevron-left navigation__arrow"><a href="index.html"></a></i>
+                <li class="navigation__item">News settings</li>
+            </ul>
+        </nav>
+        <header class="header">
+            <p class="header__first">Manage</p>
+            <p>Categories</p>
+        </header>
+        <section class="categories">
+            <div class="categories__container">
+                <h1 class="categories__header">europa</h1>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="categories__container">
+                <h1 class="categories__header">health</h1>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="categories__container">
+                <h1 class="categories__header">sport</h1>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="categories__container">
+                <h1 class="categories__header">business</h1>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="categories__container">
+                <h1 class="categories__header">travel</h1>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </section>
+        <div class="darkmode hero">
+            <button class="darkmode__button button hero__cta">toggle dark mode</button>
         </div>
-        <div class="categories__container">
-            <h1>health</h1>
-            <!-- <input type="checkbox" id="switch" class="switch__checkbox">
-        <label class="switch" for="switch"></label> -->
-        </div>
-        <div class="categories__container">
-            <h1>sport</h1>
-            <!-- <input type="checkbox" id="switch" class="switch__checkbox">
-        <label class="switch" for="switch"></label> -->
-        </div>
-        <div class="categories__container">
-            <h1>business</h1>
-            <!-- <input type="checkbox" id="switch" class="switch__checkbox">
-        <label class="switch" for="switch"></label> -->
-        </div>
-        <div class="categories__container">
-            <h1>travel</h1>
-            <!-- <input type="checkbox" id="switch" class="switch__checkbox">
-        <label class="switch" for="switch"></label> -->
-        </div>
-    </section>
-    <div class="darkmode">
-        <button class="darkmode__button">toggle dark mode</button>
+        <footer class="footer">
+            <p>Version 4.8.15.16.23.42</p>
+        </footer>
     </div>
-    <footer class="footer">
-        <p>Version 4.8.15.16.23.42</p>
-    </footer>
 </body>
+
 </html>
