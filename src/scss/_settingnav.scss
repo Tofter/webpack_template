@@ -15,10 +15,14 @@
         grid-column: 2/3;
         text-align: center;
         font-size: 1.3em;
+        font-weight: 800;
     }
-    &__arrow{
+    &__arrow, &__inbox{
         grid-column: 1/2;
         padding-left: 1em;
         align-self: center;
+    }
+    &__cockwheel{
+        grid-column: 3/4;
     }
 }

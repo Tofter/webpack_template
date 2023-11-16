@@ -9,14 +9,13 @@
 
 .slider {
 	position: absolute;
-	cursor: pointer;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	background-color: #ccc;
-	-webkit-transition: .6s;
-	transition: .6s;
+	-webkit-transition: .7s;
+	transition: .7s;
 }
 
 .slider:before {
@@ -27,8 +26,8 @@
 	left: 4px;
 	bottom: 4px;
 	background-color: white;
-	-webkit-transition: .6s;
-	transition: .6s;
+	-webkit-transition: .7s;
+	transition: .7s;
 }
 
 input:checked+.slider {

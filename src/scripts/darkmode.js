@@ -6,7 +6,7 @@ export default (function() {
         localStorage.setItem("theme", "darkmode")
     }
 
-	const CTA_BUTTON = document.querySelector (".darkmode__button")
+	const CTA_BUTTON = document.querySelector (".hero__button")
     CTA_BUTTON.addEventListener("click", clickHandler)
 
     function clickHandler(){

@@ -1,7 +1,7 @@
 @use "./color" as col;
 
 @media (max-width: 500px) {
-    #body {
+    body {
         width: 100%;
         background-color:col.$secondary-color-fossil;
 
