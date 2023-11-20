@@ -1,5 +1,98 @@
-@media (max-width: 500px){
-body{
-    width: 100%;
-}
+@use "./color" as col;
+
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+        
+    }
+
+    #wrapper{
+        background-color: col.$secondary-color-ice;
+        height: 100vh;
+    }
+
+    .navigationInbox {
+        width: 100%;
+        background-color: col.$secondary-color-ice;
+        padding-bottom: 2em;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        &__item {
+            grid-column: 2/3;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: 800;
+            list-style: none;
+        }
+
+        &__arrow,
+        &__inbox {
+            grid-column: 1/2;
+            padding-left: 1em;
+            align-self: center;
+        }
+
+        &__cockwheel {
+            grid-column: 3/4;
+            margin-left: auto;
+            padding-right: 1em;
+           align-self: center;
+        }
+    }
+
+    .headerInbox {
+        padding-top: 1.3em;
+       // border-bottom: 1px solid black;
+    }
+
+    .form {
+       margin-left: 1.4em;
+
+
+        &__search {
+            padding: 1em;
+            width: 23em;
+            border-radius: 5px 0 0 5px;
+            border: none;
+            float: left;
+            opacity: 0.7;
+            background-color: col.$secondary-color-fossil;
+        }
+
+        &__button {
+            padding: 1em 1em;
+            border-radius:0 5px 5px 0;
+            border: none;
+            float: left;
+            list-style: none;
+            opacity: 0.7;
+            background-color: col.$secondary-color-fossil;
+        }
+    }
+
+    .headlines{
+        margin-top: 5em;
+        
+
+        &__dropdown{
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            text-align: right;
+            padding: 1em 1.4em 1em 0;
+        }
+    }
+
+
+
+
+
+
+
+
+
 }

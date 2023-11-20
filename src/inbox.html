@@ -9,27 +9,27 @@
 </head>
 
 <body>
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <i class="fa-solid fa-inbox navigation__inbox"></i>
-            <li class="navigation__item"><a href="">Newsbox</a></li>
-            <i class="fa-solid fa-gear navigation__cockwheel"></i>
-        </ul>
-    </nav>
-    <header>
-        <form action="">
-            <input class="searchBar" type="text" placeholder="search news" name="search">
-            <button type="submit"></button>
-        </form>
-    </header>
-    <div>
-        <ul>
-            <li>
+    <div id="wrapper">
+        <nav class="navigationInbox">
+            <ul class="navigationInbox__list">
+                <i class="fa-solid fa-chevron-left navigationInbox__arrow"><a href="index.html"></a></i>
+                <li class="navigationInbox__item">Newsbox</li>
+                <i class="fa-solid fa-gear navigationInbox__cockwheel"></i>
+            </ul>
+        </nav>
+        <header class="headerInbox">
+            <form class="form" action="">
+                <input class="form__search" type="text" placeholder="search news" name="search">
+                <button class="form__button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </header>
+        <section class="headlines">
+            <div class="headlines__dropdown">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </section>
 
-            </li>
-        </ul>
     </div>
-
 </body>
 
 </html>
