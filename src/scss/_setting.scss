@@ -1,11 +1,6 @@
 @use "./color" as col;
 
 @media (max-width: 500px) {
-    body {
-        width: 100%;
-        background-color:col.$secondary-color-fossil;
-
-    }
     .footer{
         text-align: center;
         padding: 2em 0;

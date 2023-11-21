@@ -14,6 +14,10 @@ module.exports = {
 		filename: "inbox.html"
 	}),
 	new HtmlWebpackPlugin({
+		template: path.resolve(__dirname, "src", "archive.html"),
+		filename: "archive.html"
+	}),
+	new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, "src", "setting.html"),
 		filename: "setting.html"
 	})],

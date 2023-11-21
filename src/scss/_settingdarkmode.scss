@@ -18,3 +18,8 @@
         text-transform: uppercase;
     }
 }
+
+.darkmode{
+    background-color: col.$primary-color-drab;
+    transition: 600ms ease;
+}

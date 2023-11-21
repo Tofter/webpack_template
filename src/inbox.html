@@ -8,13 +8,14 @@
     <title>Newsbox</title>
 </head>
 
-<body>
+<body id="bodyInbox">
     <div id="wrapper">
         <nav class="navigationInbox">
             <ul class="navigationInbox__list">
-                <i class="fa-solid fa-chevron-left navigationInbox__arrow"><a href="index.html"></a></i>
+                <i class="fa-solid fa-inbox navigation__inbox"></i>
                 <li class="navigationInbox__item">Newsbox</li>
-                <i class="fa-solid fa-gear navigationInbox__cockwheel"></i>
+                <a class="navigationInbox__cockwheel" href="setting.html"><i class="fa-solid fa-gear "></i></a>
+
             </ul>
         </nav>
         <header class="headerInbox">
@@ -23,12 +24,17 @@
                 <button class="form__button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </header>
-        <section class="headlines">
-            <div class="headlines__dropdown">
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-        </section>
+        <ul class="headlines">
+            <li class="headlines__dropdown"><i class="fa-solid fa-chevron-down"></i></li>
+        </ul>
 
+
+        <div class="hero">
+            <button class="hero__button button hero__cta">toggle dark mode</button>
+        </div>
+        <footer class="footer">
+            <p>Version 4.8.15.16.23.42</p>
+        </footer>
     </div>
 </body>
 
